@@ -6,8 +6,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggleNav = () => {
-    console.log("clicked");
-
     setIsOpen(!isOpen);
   };
 
@@ -32,7 +30,7 @@ const Navbar = () => {
           {pageLinks.map((link) => {
             const { id, href, text } = link;
             return (
-              <li key={id}>
+              <li key={id} onClick={() => setIsOpen(false)}>
                 <a href={href} className="nav-link">
                   {text}
                 </a>

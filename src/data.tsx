@@ -71,7 +71,7 @@ export const tours = [
   {
     id: 4,
     image: tour4,
-    date: "december 5th, 2019",
+    date: "december 5th, 2023",
     title: "kenya highlights",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "kenya",
